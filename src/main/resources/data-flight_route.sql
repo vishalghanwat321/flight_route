@@ -1,0 +1,50 @@
+--
+-- PostgreSQL database dump
+--
+
+-- Dumped from database version 9.6.1
+-- Dumped by pg_dump version 9.6.1
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SET check_function_bodies = false;
+SET client_min_messages = warning;
+SET row_security = off;
+
+SET search_path = public, pg_catalog;
+
+INSERT INTO flight_route(departure_date_time, arrival_date_time, creation_timestamp, last_modification_timestamp, origin_code, origin_country_code, destiny_code, destiny_country_code) VALUES ('2018-11-20 17:48:23', '2018-11-20 19:48:23', '2018-11-05 14:09:22.208', null, 'PUN', 'IN', 'MUM', 'IN');
+INSERT INTO flight_route(departure_date_time, arrival_date_time, creation_timestamp, last_modification_timestamp, origin_code, origin_country_code, destiny_code, destiny_country_code) VALUES ('2018-11-20 17:40:23', '2018-11-20 20:48:23', '2018-11-05 14:09:22.208', null, 'PUN', 'IN', 'BAN', 'IN');
+INSERT INTO flight_route(departure_date_time, arrival_date_time, creation_timestamp, last_modification_timestamp, origin_code, origin_country_code, destiny_code, destiny_country_code) VALUES ('2018-11-20 17:30:23', '2018-11-20 21:48:23', '2018-11-05 14:09:22.208', null, 'PUN', 'IN', 'KOL', 'IN');
+INSERT INTO flight_route(departure_date_time, arrival_date_time, creation_timestamp, last_modification_timestamp, origin_code, origin_country_code, destiny_code, destiny_country_code) VALUES ('2018-11-20 16:42:23', '2018-11-20 22:48:23', '2018-11-05 14:09:22.208', null, 'PUN', 'IN', 'DEL', 'IN');
+INSERT INTO flight_route(departure_date_time, arrival_date_time, creation_timestamp, last_modification_timestamp, origin_code, origin_country_code, destiny_code, destiny_country_code) VALUES ('2018-11-20 17:48:23', '2018-11-20 19:48:23', '2018-11-05 14:09:22.208', null, 'MUM', 'IN', 'KOL', 'IN');
+INSERT INTO flight_route(departure_date_time, arrival_date_time, creation_timestamp, last_modification_timestamp, origin_code, origin_country_code, destiny_code, destiny_country_code) VALUES ('2018-11-20 17:40:23', '2018-11-20 20:48:23', '2018-11-05 14:09:22.208', null, 'MUM', 'IN', 'BAN', 'IN');
+INSERT INTO flight_route(departure_date_time, arrival_date_time, creation_timestamp, last_modification_timestamp, origin_code, origin_country_code, destiny_code, destiny_country_code) VALUES ('2018-11-20 17:30:23', '2018-11-20 21:48:23', '2018-11-05 14:09:22.208', null, 'MUM', 'IN', 'DEL', 'IN');
+INSERT INTO flight_route(departure_date_time, arrival_date_time, creation_timestamp, last_modification_timestamp, origin_code, origin_country_code, destiny_code, destiny_country_code) VALUES ('2018-11-20 16:42:23', '2018-11-20 22:48:23', '2018-11-05 14:09:22.208', null, 'MUM', 'IN', 'NAG', 'IN');
+INSERT INTO flight_route(departure_date_time, arrival_date_time, creation_timestamp, last_modification_timestamp, origin_code, origin_country_code, destiny_code, destiny_country_code) VALUES ('2018-11-20 17:48:23', '2018-11-20 19:48:23', '2018-11-05 14:09:22.208', null, 'BAN', 'IN', 'NAG', 'IN');
+INSERT INTO flight_route(departure_date_time, arrival_date_time, creation_timestamp, last_modification_timestamp, origin_code, origin_country_code, destiny_code, destiny_country_code) VALUES ('2018-11-20 17:40:23', '2018-11-20 20:48:23', '2018-11-05 14:09:22.208', null, 'BAN', 'IN', 'HYD', 'IN');
+INSERT INTO flight_route(departure_date_time, arrival_date_time, creation_timestamp, last_modification_timestamp, origin_code, origin_country_code, destiny_code, destiny_country_code) VALUES ('2018-11-20 17:30:23', '2018-11-20 21:48:23', '2018-11-05 14:09:22.208', null, 'BAN', 'IN', 'DEL', 'IN');
+INSERT INTO flight_route(departure_date_time, arrival_date_time, creation_timestamp, last_modification_timestamp, origin_code, origin_country_code, destiny_code, destiny_country_code) VALUES ('2018-11-20 16:42:23', '2018-11-20 22:48:23', '2018-11-05 14:09:22.208', null, 'BAN', 'IN', 'KOL', 'IN');
+INSERT INTO flight_route(departure_date_time, arrival_date_time, creation_timestamp, last_modification_timestamp, origin_code, origin_country_code, destiny_code, destiny_country_code) VALUES ('2018-11-20 17:48:23', '2018-11-20 19:48:23', '2018-11-05 14:09:22.208', null, 'KOL', 'IN', 'NAG', 'IN');
+INSERT INTO flight_route(departure_date_time, arrival_date_time, creation_timestamp, last_modification_timestamp, origin_code, origin_country_code, destiny_code, destiny_country_code) VALUES ('2018-11-20 17:40:23', '2018-11-20 20:48:23', '2018-11-05 14:09:22.208', null, 'KOL', 'IN', 'DEL', 'IN');
+INSERT INTO flight_route(departure_date_time, arrival_date_time, creation_timestamp, last_modification_timestamp, origin_code, origin_country_code, destiny_code, destiny_country_code) VALUES ('2018-11-20 17:30:23', '2018-11-21 21:48:23', '2018-11-05 14:09:22.208', null, 'KOL', 'IN', 'SYD', 'AU');
+INSERT INTO flight_route(departure_date_time, arrival_date_time, creation_timestamp, last_modification_timestamp, origin_code, origin_country_code, destiny_code, destiny_country_code) VALUES ('2018-11-20 16:42:23', '2018-11-21 22:48:23', '2018-11-05 14:09:22.208', null, 'KOL', 'IN', 'MEL', 'AU');
+INSERT INTO flight_route(departure_date_time, arrival_date_time, creation_timestamp, last_modification_timestamp, origin_code, origin_country_code, destiny_code, destiny_country_code) VALUES ('2018-11-20 17:48:23', '2018-11-21 19:48:23', '2018-11-05 14:09:22.208', null, 'MEL', 'AU', 'PUN', 'IN');
+INSERT INTO flight_route(departure_date_time, arrival_date_time, creation_timestamp, last_modification_timestamp, origin_code, origin_country_code, destiny_code, destiny_country_code) VALUES ('2018-11-20 17:40:23', '2018-11-21 20:48:23', '2018-11-05 14:09:22.208', null, 'SYD', 'AU', 'PUN', 'IN');
+INSERT INTO flight_route(departure_date_time, arrival_date_time, creation_timestamp, last_modification_timestamp, origin_code, origin_country_code, destiny_code, destiny_country_code) VALUES ('2018-11-20 17:30:23', '2018-11-21 21:48:23', '2018-11-05 14:09:22.208', null, 'NEW', 'US', 'MUM', 'IN');
+INSERT INTO flight_route(departure_date_time, arrival_date_time, creation_timestamp, last_modification_timestamp, origin_code, origin_country_code, destiny_code, destiny_country_code) VALUES ('2018-11-20 16:42:23', '2018-11-21 00:48:23', '2018-11-05 14:09:22.208', null, 'NEW', 'US', 'DUB', 'DU');
+INSERT INTO flight_route(departure_date_time, arrival_date_time, creation_timestamp, last_modification_timestamp, origin_code, origin_country_code, destiny_code, destiny_country_code) VALUES ('2018-11-20 17:48:23', '2018-11-21 19:48:23', '2018-11-05 14:09:22.208', null, 'NEW', 'US', 'KOL', 'IN');
+INSERT INTO flight_route(departure_date_time, arrival_date_time, creation_timestamp, last_modification_timestamp, origin_code, origin_country_code, destiny_code, destiny_country_code) VALUES ('2018-11-20 17:40:23', '2018-11-20 21:48:23', '2018-11-05 14:09:22.208', null, 'SYD', 'AU', 'BAN', 'IN');
+INSERT INTO flight_route(departure_date_time, arrival_date_time, creation_timestamp, last_modification_timestamp, origin_code, origin_country_code, destiny_code, destiny_country_code) VALUES ('2018-11-20 17:30:23', '2018-11-20 23:48:23', '2018-11-05 14:09:22.208', null, 'MUM', 'IN', 'DUB', 'DU');
+INSERT INTO flight_route(departure_date_time, arrival_date_time, creation_timestamp, last_modification_timestamp, origin_code, origin_country_code, destiny_code, destiny_country_code) VALUES ('2018-11-20 16:42:23', '2018-11-20 21:48:23', '2018-11-05 14:09:22.208', null, 'NAG', 'IN', 'DUB', 'DU');
+INSERT INTO flight_route(departure_date_time, arrival_date_time, creation_timestamp, last_modification_timestamp, origin_code, origin_country_code, destiny_code, destiny_country_code) VALUES ('2018-11-20 17:48:23', '2018-11-21 19:48:23', '2018-11-05 14:09:22.208', null, 'PER', 'AU', 'NAG', 'IN');
+INSERT INTO flight_route(departure_date_time, arrival_date_time, creation_timestamp, last_modification_timestamp, origin_code, origin_country_code, destiny_code, destiny_country_code) VALUES ('2018-11-20 17:40:23', '2018-11-21 20:48:23', '2018-11-05 14:09:22.208', null, 'PER', 'AU', 'KOL', 'IN');
+INSERT INTO flight_route(departure_date_time, arrival_date_time, creation_timestamp, last_modification_timestamp, origin_code, origin_country_code, destiny_code, destiny_country_code) VALUES ('2018-11-20 17:30:23', '2018-11-21 21:48:23', '2018-11-05 14:09:22.208', null, 'PER', 'AU', 'MUM', 'IN');
+INSERT INTO flight_route(departure_date_time, arrival_date_time, creation_timestamp, last_modification_timestamp, origin_code, origin_country_code, destiny_code, destiny_country_code) VALUES ('2018-11-20 16:42:23', '2018-11-21 22:48:23', '2018-11-05 14:09:22.208', null, 'CAL', 'US', 'MUM', 'IN');
+INSERT INTO flight_route(departure_date_time, arrival_date_time, creation_timestamp, last_modification_timestamp, origin_code, origin_country_code, destiny_code, destiny_country_code) VALUES ('2018-11-20 17:48:23', '2018-11-21 19:48:23', '2018-11-05 14:09:22.208', null, 'CAL', 'US', 'NAG', 'IN');
+INSERT INTO flight_route(departure_date_time, arrival_date_time, creation_timestamp, last_modification_timestamp, origin_code, origin_country_code, destiny_code, destiny_country_code) VALUES ('2018-11-20 17:40:23', '2018-11-21 20:48:23', '2018-11-05 14:09:22.208', null, 'CAL', 'US', 'PUN', 'IN');
+INSERT INTO flight_route(departure_date_time, arrival_date_time, creation_timestamp, last_modification_timestamp, origin_code, origin_country_code, destiny_code, destiny_country_code) VALUES ('2018-11-20 17:30:23', '2018-11-21 21:48:23', '2018-11-05 14:09:22.208', null, 'CAL', 'US', 'SYD', 'AU');
+INSERT INTO flight_route(departure_date_time, arrival_date_time, creation_timestamp, last_modification_timestamp, origin_code, origin_country_code, destiny_code, destiny_country_code) VALUES ('2018-11-20 16:42:23', '2018-11-21 22:48:23', '2018-11-05 14:09:22.208', null, 'CAL', 'US', 'MEL', 'AU');
