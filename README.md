@@ -1,11 +1,14 @@
 Flight-Route
 
 Flight_route APIs
-####Docker Setup########## ##Install docker on your machine
+####Docker Setup########## 
+##Install docker on your machine, below is the command to execute on your Terminal
 
 brew cask install docker
 
-#####Virtual Box (Optional)####### ##Install Oracle Virtual Box
+#####Virtual Box (Optional)####### 
+##Install Oracle Virtual Box
+
 
 ############Start Docker ###############
 
